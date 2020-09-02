@@ -123,4 +123,3 @@ You can use the SQL function REPLACE.
 SELECT name, REPLACE(capital, name, '') 
 FROM world 
 WHERE capital LIKE concat('%', name, '%') AND capital > name;
-
